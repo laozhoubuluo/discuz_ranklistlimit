@@ -79,12 +79,12 @@
 		</item>
 		<item id="language">
 			<item id="scriptlang">
-				<item id="laozhoubuluo_ranklistlimit_lower_unit"><![CDATA[╆簆眤矗ㄑ膙基虫基╰参皌竚虫基叫穝倒蔼膙基虫基]]></item>
-				<item id="laozhoubuluo_ranklistlimit_higher_unit"><![CDATA[╆簆眤矗ㄑ膙基虫基蔼╰参皌竚虫基叫穝倒膙基虫基]]></item>
-				<item id="laozhoubuluo_ranklistlimit_lower_credit"><![CDATA[╆簆眤干膙基窥╰参皌竚羆基叫穝倒蔼膙基窥]]></item>
-				<item id="laozhoubuluo_ranklistlimit_higher_credit"><![CDATA[╆簆眤干膙基窥蔼╰参皌竚羆基叫穝倒膙基窥]]></item>
-				<item id="laozhoubuluo_ranklistlimit_lower_credit_friend"><![CDATA[╆簆眤眤ね干膙基窥╰参皌竚羆基叫穝倒蔼膙基窥]]></item>
-				<item id="laozhoubuluo_ranklistlimit_higher_credit_friend"><![CDATA[╆簆眤眤ね干膙基窥蔼╰参皌竚羆基叫穝倒膙基窥]]></item>
+				<item id="lower_unit"><![CDATA[╆簆眤矗ㄑ膙基虫基╰参皌竚虫基叫穝倒蔼膙基虫基]]></item>
+				<item id="higher_unit"><![CDATA[╆簆眤矗ㄑ膙基虫基蔼╰参皌竚虫基叫穝倒膙基虫基]]></item>
+				<item id="lower_credit"><![CDATA[╆簆眤干膙基窥╰参皌竚羆基叫穝倒蔼膙基窥]]></item>
+				<item id="higher_credit"><![CDATA[╆簆眤干膙基窥蔼╰参皌竚羆基叫穝倒膙基窥]]></item>
+				<item id="lower_credit_friend"><![CDATA[╆簆眤眤ね干膙基窥╰参皌竚羆基叫穝倒蔼膙基窥]]></item>
+				<item id="higher_credit_friend"><![CDATA[╆簆眤眤ね干膙基窥蔼╰参皌竚羆基叫穝倒膙基窥]]></item>
 			</item>
 		</item>
 		<item id="license"><![CDATA[Copyright 2021 ρ㏄场辅
