@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[ÅÅÐÐ°ñ¾º¼Û»ý·ÖÏÞÖÆ]]></item>
+			<item id="identifier"><![CDATA[laozhoubuluo_ranklistlimit]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[laozhoubuluo_ranklistlimit/]]></item>
+			<item id="copyright"><![CDATA[ÀÏÖÜ²¿Âä]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[laozhoubuluo_ranklistlimit]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2,X3.3,X3.4,X3.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[¿ªÆôÅÅÐÐ°ñ¾º¼Û»ý·ÖÏÞÖÆ¹¦ÄÜ]]></item>
+				<item id="description"><![CDATA[ÊÇ·ñ¿ªÆôÅÅÐÐ°ñ¾º¼Û»ý·ÖÏÞÖÆ¹¦ÄÜ]]></item>
+				<item id="variable"><![CDATA[status]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[0 = ¹Ø±Õ
+1 = ¿ªÆô]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[¾º¼ÛÅÅÃûµ¥¼ÛÏÂÏÞ]]></item>
+				<item id="description"><![CDATA[Ä¬ÈÏÖµÎª 0 ¼´²»ÏÞÖÆ£¬ÅäÖÃÊ±Çë½öÊäÈëÊý×Ö]]></item>
+				<item id="variable"><![CDATA[unitlowerlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[¾º¼ÛÅÅÃûµ¥¼ÛÉÏÏÞ]]></item>
+				<item id="description"><![CDATA[Ä¬ÈÏÖµÎª 2147483647 ¼´²»ÏÞÖÆ£¬ÅäÖÃÊ±Çë½öÊäÈëÊý×Ö]]></item>
+				<item id="variable"><![CDATA[unithigherlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[2147483647]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[¾º¼ÛÅÅÃû×Ü¼ÛÏÂÏÞ]]></item>
+				<item id="description"><![CDATA[Ä¬ÈÏÖµÎª 0 ¼´²»ÏÞÖÆ£¬ÅäÖÃÊ±Çë½öÊäÈëÊý×Ö]]></item>
+				<item id="variable"><![CDATA[creditlowerlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[¾º¼ÛÅÅÃû×Ü¼ÛÉÏÏÞ]]></item>
+				<item id="description"><![CDATA[Ä¬ÈÏÖµÎª 2147483647 ¼´²»ÏÞÖÆ£¬ÅäÖÃÊ±Çë½öÊäÈëÊý×Ö]]></item>
+				<item id="variable"><![CDATA[credithigherlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[2147483647]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="laozhoubuluo_ranklistlimit_lower_unit"><![CDATA[±§Ç¸£¬ÄúÌá¹©µÄ¾º¼Ûµ¥¼ÛµÍÓÚÏµÍ³ÅäÖÃµÄµ¥¼ÛÏÂÏÞ£¬ÇëÖØÐÂ¸ø³öÒ»¸ö¸ü¸ßµÄ¾º¼Ûµ¥¼Û]]></item>
+				<item id="laozhoubuluo_ranklistlimit_higher_unit"><![CDATA[±§Ç¸£¬ÄúÌá¹©µÄ¾º¼Ûµ¥¼Û¸ßÓÚÏµÍ³ÅäÖÃµÄµ¥¼ÛÉÏÏÞ£¬ÇëÖØÐÂ¸ø³öÒ»¸ö¸üµÍµÄ¾º¼Ûµ¥¼Û]]></item>
+				<item id="laozhoubuluo_ranklistlimit_lower_credit"><![CDATA[±§Ç¸£¬Äú²¹³äºóµÄ¾º¼Û½ðÇ®µÍÓÚÏµÍ³ÅäÖÃµÄ×Ü¼ÛÏÂÏÞ£¬ÇëÖØÐÂ¸ø³öÒ»¸ö¸ü¸ßµÄ¾º¼Û½ðÇ®]]></item>
+				<item id="laozhoubuluo_ranklistlimit_higher_credit"><![CDATA[±§Ç¸£¬Äú²¹³äºóµÄ¾º¼Û½ðÇ®¸ßÓÚÏµÍ³ÅäÖÃµÄ×Ü¼ÛÉÏÏÞ£¬ÇëÖØÐÂ¸ø³öÒ»¸ö¸üµÍµÄ¾º¼Û½ðÇ®]]></item>
+				<item id="laozhoubuluo_ranklistlimit_lower_credit_friend"><![CDATA[±§Ç¸£¬ÄúÎªÄúµÄºÃÓÑ²¹³äºóµÄ¾º¼Û½ðÇ®µÍÓÚÏµÍ³ÅäÖÃµÄ×Ü¼ÛÏÂÏÞ£¬ÇëÖØÐÂ¸ø³öÒ»¸ö¸ü¸ßµÄ¾º¼Û½ðÇ®]]></item>
+				<item id="laozhoubuluo_ranklistlimit_higher_credit_friend"><![CDATA[±§Ç¸£¬ÄúÎªÄúµÄºÃÓÑ²¹³äºóµÄ¾º¼Û½ðÇ®¸ßÓÚÏµÍ³ÅäÖÃµÄ×Ü¼ÛÉÏÏÞ£¬ÇëÖØÐÂ¸ø³öÒ»¸ö¸üµÍµÄ¾º¼Û½ðÇ®]]></item>
+			</item>
+		</item>
+		<item id="license"><![CDATA[Copyright 2021 ÀÏÖÜ²¿Âä
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+NOTICE: Removing or modifying any content about the author will be
+regarded as "remove attribution notices" and is prohibited,
+including name, description and relevant URLs.
+±¾³ÌÐòÊ¹ÓÃ Apache License 2.0 Ð­ÒéÊÚÈ¨£¬Äú±ØÐë×ñÊØ´ËÐ­Òé²ÅÄÜ°²×°±¾³ÌÐò¡£
+ÌØ±ðÉùÃ÷£º×÷Õß¶Ô¡°±ØÐë±£ÁôÊðÃû¡±µÄ¶¨ÒåÊÇ²»µÃÈ¥³ý³ÌÐòÄÚµÄÈÎºÎÒ»´¦×÷ÕßÊðÃû£¬½éÉÜ¼°Ïà¹ØÍøÖ·µÈ×÷Õß¸öÈËÐÅÏ¢£¬Ò²²»½ÓÊÜÏà¹ØÐÞ¸Ä¡£]]></item>
+		<item id="intro"><![CDATA[±¾²å¼þ·½±ãÓÃ»§¶ÔÅÅÐÐ°ñ¾º¼ÛÅÅÃû¹¦ÄÜµÄµ¥¼Û¡¢×Ü¼Û½øÐÐÉÏÏÂÏÞÏÞÖÆ£¬ÒÔÍêÉÆÕ¾µã»ý·Ö²ßÂÔ¡£]]></item>
+	</item>
+</root>

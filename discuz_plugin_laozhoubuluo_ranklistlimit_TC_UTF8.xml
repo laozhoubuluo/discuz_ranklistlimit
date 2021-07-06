@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[排行榜競價積分限制]]></item>
+			<item id="identifier"><![CDATA[laozhoubuluo_ranklistlimit]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[laozhoubuluo_ranklistlimit/]]></item>
+			<item id="copyright"><![CDATA[老周部落]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[laozhoubuluo_ranklistlimit]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3,X3.1,X3.2,X3.3,X3.4,X3.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[開啟排行榜競價積分限制功能]]></item>
+				<item id="description"><![CDATA[是否開啟排行榜競價積分限制功能]]></item>
+				<item id="variable"><![CDATA[status]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[0 = 關閉
+1 = 開啟]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[競價排名單價下限]]></item>
+				<item id="description"><![CDATA[默認值為 0 即不限制，設定時請僅輸入數位]]></item>
+				<item id="variable"><![CDATA[unitlowerlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[競價排名單價上限]]></item>
+				<item id="description"><![CDATA[默認值為 2147483647 即不限制，配置時請僅輸入數位]]></item>
+				<item id="variable"><![CDATA[unithigherlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[2147483647]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[競價排名總價下限]]></item>
+				<item id="description"><![CDATA[默認值為 0 即不限制，設定時請僅輸入數位]]></item>
+				<item id="variable"><![CDATA[creditlowerlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[競價排名總價上限]]></item>
+				<item id="description"><![CDATA[默認值為 2147483647 即不限制，配置時請僅輸入數位]]></item>
+				<item id="variable"><![CDATA[credithigherlimit]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[2147483647]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="laozhoubuluo_ranklistlimit_lower_unit"><![CDATA[抱歉，您提供的競價單價低於系統配置的單價下限，請重新給出一個更高的競價單價]]></item>
+				<item id="laozhoubuluo_ranklistlimit_higher_unit"><![CDATA[抱歉，您提供的競價單價高於系統配置的單價上限，請重新給出一個更低的競價單價]]></item>
+				<item id="laozhoubuluo_ranklistlimit_lower_credit"><![CDATA[抱歉，您補充後的競價金錢低於系統配置的總價下限，請重新給出一個更高的競價金錢]]></item>
+				<item id="laozhoubuluo_ranklistlimit_higher_credit"><![CDATA[抱歉，您補充後的競價金錢高於系統配置的總價上限，請重新給出一個更低的競價金錢]]></item>
+				<item id="laozhoubuluo_ranklistlimit_lower_credit_friend"><![CDATA[抱歉，您為您的好友補充后的競價金錢低於系統配置的總價下限，請重新給出一個更高的競價金錢]]></item>
+				<item id="laozhoubuluo_ranklistlimit_higher_credit_friend"><![CDATA[抱歉，您為您的好友補充後的競價金錢高於系統配置的總價上限，請重新給出一個更低的競價金錢]]></item>
+			</item>
+		</item>
+		<item id="license"><![CDATA[Copyright 2021 老周部落
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+NOTICE: Removing or modifying any content about the author will be
+regarded as "remove attribution notices" and is prohibited,
+including name, description and relevant URLs.
+本程式使用 Apache License 2.0 協定授權，您必須遵守此協定才能安裝本程式。
+特別聲明：作者對"必須保留署名"的定義是不得去除程式內的任何一處作者署名，介紹及相關網址等作者個人資訊，也不接受相關修改。]]></item>
+		<item id="intro"><![CDATA[本外掛程式方便使用者對排行榜競價排名功能的單價、總價進行上下限限制，以完善網站積分策略。]]></item>
+	</item>
+</root>
