@@ -11,7 +11,7 @@
 			<item id="datatables"><![CDATA[]]></item>
 			<item id="directory"><![CDATA[laozhoubuluo_ranklistlimit/]]></item>
 			<item id="copyright"><![CDATA[老周部落]]></item>
-			<item id="version"><![CDATA[1.0]]></item>
+			<item id="version"><![CDATA[1.1.0]]></item>
 			<item id="__modules">
 				<item id="0">
 					<item id="name"><![CDATA[laozhoubuluo_ranklistlimit]]></item>
@@ -79,12 +79,12 @@
 		</item>
 		<item id="language">
 			<item id="scriptlang">
-				<item id="lower_unit"><![CDATA[抱歉，您提供的竞价单价低于系统配置的单价下限，请重新给出一个更高的竞价单价]]></item>
-				<item id="higher_unit"><![CDATA[抱歉，您提供的竞价单价高于系统配置的单价上限，请重新给出一个更低的竞价单价]]></item>
-				<item id="lower_credit"><![CDATA[抱歉，您补充后的竞价金钱低于系统配置的总价下限，请重新给出一个更高的竞价金钱]]></item>
-				<item id="higher_credit"><![CDATA[抱歉，您补充后的竞价金钱高于系统配置的总价上限，请重新给出一个更低的竞价金钱]]></item>
-				<item id="lower_credit_friend"><![CDATA[抱歉，您为您的好友补充后的竞价金钱低于系统配置的总价下限，请重新给出一个更高的竞价金钱]]></item>
-				<item id="higher_credit_friend"><![CDATA[抱歉，您为您的好友补充后的竞价金钱高于系统配置的总价上限，请重新给出一个更低的竞价金钱]]></item>
+				<item id="lower_unit"><![CDATA[抱歉，您提供的竞价单价低于系统配置的单价下限（{limit}），请重新给出一个更高的竞价单价]]></item>
+				<item id="higher_unit"><![CDATA[抱歉，您提供的竞价单价高于系统配置的单价上限（{limit}），请重新给出一个更低的竞价单价]]></item>
+				<item id="lower_credit"><![CDATA[抱歉，您补充后的竞价金钱低于系统配置的总价下限（{limit}），请重新给出一个更高的竞价金钱]]></item>
+				<item id="higher_credit"><![CDATA[抱歉，您补充后的竞价金钱高于系统配置的总价上限（{limit}），请重新给出一个更低的竞价金钱]]></item>
+				<item id="lower_credit_friend"><![CDATA[抱歉，您为您的好友补充后的竞价金钱低于系统配置的总价下限（{limit}），请重新给出一个更高的竞价金钱]]></item>
+				<item id="higher_credit_friend"><![CDATA[抱歉，您为您的好友补充后的竞价金钱高于系统配置的总价上限（{limit}），请重新给出一个更低的竞价金钱]]></item>
 			</item>
 		</item>
 		<item id="license"><![CDATA[Copyright 2021 老周部落

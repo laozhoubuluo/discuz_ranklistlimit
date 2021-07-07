@@ -20,10 +20,10 @@ class plugin_laozhoubuluo_ranklistlimit {
 			$unitlowerlimit = is_numeric($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unitlowerlimit']) ? intval($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unitlowerlimit']) : 0;
 			$unithigherlimit = is_numeric($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unithigherlimit']) ? intval($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unithigherlimit']) : 2147483647;
 			if($unitprice < $unitlowerlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_unit'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_unit', array('limit' => $unitlowerlimit)));
 			}
 			if($unitprice > $unithigherlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_unit'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_unit', array('limit' => $unithigherlimit)));
 			}
 		}
 
@@ -34,10 +34,10 @@ class plugin_laozhoubuluo_ranklistlimit {
 			$creditlowerlimit = is_numeric($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['creditlowerlimit']) ? intval($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['creditlowerlimit']) : 0;
 			$credithigherlimit = is_numeric($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['credithigherlimit']) ? intval($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['credithigherlimit']) : 2147483647;
 			if($showcredit < $creditlowerlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_credit_friend'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_credit_friend', array('limit' => $creditlowerlimit)));
 			}
 			if($showcredit > $credithigherlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_credit_friend'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_credit_friend', array('limit' => $credithigherlimit)));
 			}
 		}
 
@@ -50,16 +50,16 @@ class plugin_laozhoubuluo_ranklistlimit {
 			$unitlowerlimit = is_numeric($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unitlowerlimit']) ? intval($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unitlowerlimit']) : 0;
 			$unithigherlimit = is_numeric($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unithigherlimit']) ? intval($_G['cache']['plugin']['laozhoubuluo_ranklistlimit']['unithigherlimit']) : 2147483647;
 			if($unitprice < $unitlowerlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_unit'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_unit', array('limit' => $unitlowerlimit)));
 			}
 			if($unitprice > $unithigherlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_unit'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_unit', array('limit' => $unithigherlimit)));
 			}
 			if($showcredit < $creditlowerlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_credit'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'lower_credit', array('limit' => $creditlowerlimit)));
 			}
 			if($showcredit > $credithigherlimit) {
-				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_credit'));
+				showmessage(lang('plugin/laozhoubuluo_ranklistlimit', 'higher_credit', array('limit' => $credithigherlimit)));
 			}
 		}
 
