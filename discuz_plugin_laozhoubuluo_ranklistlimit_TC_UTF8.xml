@@ -79,12 +79,12 @@
 		</item>
 		<item id="language">
 			<item id="scriptlang">
-				<item id="lower_unit"><![CDATA[抱歉，您提供的競價單價低於系統配置的單價下限（{limit}），請重新給出一個更高的競價單價]]></item>
-				<item id="higher_unit"><![CDATA[抱歉，您提供的競價單價高於系統配置的單價上限（{limit}），請重新給出一個更低的競價單價]]></item>
-				<item id="lower_credit"><![CDATA[抱歉，您補充後的競價金錢低於系統配置的總價下限（{limit}），請重新給出一個更高的競價金錢]]></item>
-				<item id="higher_credit"><![CDATA[抱歉，您補充後的競價金錢高於系統配置的總價上限（{limit}），請重新給出一個更低的競價金錢]]></item>
-				<item id="lower_credit_friend"><![CDATA[抱歉，您為您的好友補充后的競價金錢低於系統配置的總價下限（{limit}），請重新給出一個更高的競價金錢]]></item>
-				<item id="higher_credit_friend"><![CDATA[抱歉，您為您的好友補充後的競價金錢高於系統配置的總價上限（{limit}），請重新給出一個更低的競價金錢]]></item>
+				<item id="lower_unit"><![CDATA[抱歉，您提供的競價單價（{num}）低於系統配置的單價下限（{limit}），請重新給出一個更高的競價單價]]></item>
+				<item id="higher_unit"><![CDATA[抱歉，您提供的競價單價（{num}）高於系統配置的單價上限（{limit}），請重新給出一個更低的競價單價]]></item>
+				<item id="lower_credit"><![CDATA[抱歉，您補充後的競價金錢（{num}）低於系統配置的總價下限（{limit}），請重新給出一個更高的競價金錢]]></item>
+				<item id="higher_credit"><![CDATA[抱歉，您補充後的競價金錢（{num}）高於系統配置的總價上限（{limit}），請重新給出一個更低的競價金錢]]></item>
+				<item id="lower_credit_friend"><![CDATA[抱歉，您為您的好友補充后的競價金錢（{num}）低於系統配置的總價下限（{limit}），請重新給出一個更高的競價金錢]]></item>
+				<item id="higher_credit_friend"><![CDATA[抱歉，您為您的好友補充後的競價金錢（{num}）高於系統配置的總價上限（{limit}），請重新給出一個更低的競價金錢]]></item>
 			</item>
 		</item>
 		<item id="license"><![CDATA[Copyright 2021 老周部落
